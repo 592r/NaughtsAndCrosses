@@ -31,14 +31,17 @@ public class Client {
 
     public static void showScreen(){
 
-        System.out.println(cell());
+        System.out.println(row());
+        System.out.println(row());
+        System.out.println(row());
+
 
     }
 
-    public static String cell (){
+    public static String row(){
 
-        String cell = "***\n*X*\n***";
+        String row = "|*******************|\n|     |      |      |\n|*******************|";
 
-        return cell;
+        return row;
     }
 }
