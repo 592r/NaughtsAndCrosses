@@ -8,7 +8,7 @@ public class Client {
         Scanner charlieScanner = new Scanner(System.in);
 
         System.out.println("Hello Welcome To Naughts and Crosses");
-        System.out.println("Do you want to play against your friend or the computer? (y/n)");
+        System.out.println("Do you want to play against the computer? (y/n)");
         String input = charlieScanner.nextLine();
         boolean playingWithComputer;
 
@@ -17,7 +17,17 @@ public class Client {
         } else {
             playingWithComputer = false;
         }
-
+        
+        /*
+        #Some stuff I did
+        if (playingWithComputer = true;){
+            
+            
+        } else {
+            
+            
+        }
+        */
         boolean coolBoolean = true;
         boolean myBoolean = true;
         System.out.println("Do you want to be naughts or crosses? (y/n)");
